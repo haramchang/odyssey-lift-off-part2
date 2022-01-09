@@ -19,6 +19,8 @@ const typeDefs = gql`
     length: Int
     "The number of modules this track contains"
     modulesCount: Int
+    "The amount of views"
+    numberOfViews: Int
   }
 
   "Author of a complete Track or a Module"
